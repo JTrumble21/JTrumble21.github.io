@@ -33,7 +33,7 @@ section {
   width: 100%;
   min-height: 300px;
   padding: 100px 50px;
-  border: 3px solid #fff;
+  border: 1.5px solid #000000;
 }
 body {
   background: #0f6c36;
@@ -45,6 +45,7 @@ body {
   background: #5ed87e;
   color: #000000;
   font-size: 1.2em;
+  text-align: left;
 }
   .fancyHeading {
     font-family: "Crimson Text", serif;
@@ -59,21 +60,24 @@ body {
     border-radius: 16px;
     box-shadow: 2x 3px 5px #222;
     .thumbnail-container {
-      text-align: center; 
-      margin-top: 50px;  
+      display: flex; 
+      justify-content: center; 
+      gap: 10px;  
+      margin-top: 50px; 
     }
   }
 */
 #careerGoals {
   background: #2d8137;
-  color: #fff;
+  color: #000000;
   font-size: 1.2em;
   padding-left: 100px;
+  text-align: left;
 }
 #accomplishments {
   background: #3d9c30;
   color: #333;
-  text-align: center;
+  text-align: left;
 }
   .thumbnail {
     width: 20%;
@@ -81,8 +85,10 @@ body {
     border-radius: 16px;
     box-shadow: 2x 3px 5px #222;
     .thumbnail-container {
-      text-align: center; 
-      margin-top: 50px;  
+      display: flex;  
+      justify-content: center;  
+      gap: 10px;  
+      margin-top: 50px; 
     }
   }
   .thumbnail {
@@ -91,8 +97,10 @@ body {
     border-radius: 16px;
     box-shadow: 2x 3px 5px #222;
     .thumbnail-container {
-      text-align: center; 
-      margin-top: 50px;  
+      display: flex;  
+      justify-content: center;  
+      gap: 10px;  
+      margin-top: 50px; 
     }
   }
   .thumbnail {
@@ -101,14 +109,16 @@ body {
     border-radius: 16px;
     box-shadow: 2x 3px 5px #222;
     .thumbnail-container {
-      text-align: center; 
-      margin-top: 50px;  
+      display: flex;  
+      justify-content: center;  
+      gap: 10px;  
+      margin-top: 50px; 
     }
   }
-  #sampleDesigns {
+  #sample designs {
     background: #3e7644;
     color: #333;
-    text-align: center;
+    text-align: left;
   }
     .thumbnail {
       width: 20%;
@@ -116,36 +126,40 @@ body {
       border-radius: 16px;
       box-shadow: 2x 3px 5px #222;
       .thumbnail-container {
-        text-align: center; 
-        margin-top: 50px;  
+        display: flex;  
+        justify-content: center;  
+        gap: 10px;  
+        margin-top: 50px; 
       }
     }
-
     .thumbnail {
       width: 20%;
       border: 3px solid #777;
       border-radius: 16px;
       box-shadow: 2x 3px 5px #222;
       .thumbnail-container {
-        text-align: center; 
-        margin-top: 50px;  
+        display: flex;  
+        justify-content: center;  
+        gap: 10px;  
+        margin-top: 50px; 
       }
     }
-
     .thumbnail {
       width: 20%;
       border: 3px solid #777;
       border-radius: 16px;
       box-shadow: 2x 3px 5px #222;
       .thumbnail-container {
-        text-align: center; 
-        margin-top: 50px;  
+        display: flex;  
+        justify-content: center;  
+        gap: 10px;  
+        margin-top: 50px; 
       }
     }
 #contact {
   background: #2e7135;
   color: #000000;
-  text-align: center;
+  text-align: left;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   font-size: 1.2em;
@@ -156,8 +170,10 @@ body {
   border-radius: 16px;
   box-shadow: 2x 3px 5px #222;
   .thumbnail-container {
-    text-align: center; 
-    margin-top: 50px;  
+    display: flex;  
+    justify-content: center;  
+    gap: 10px;  
+    margin-top: 50px; 
   }
 }
 .thumbnail {
@@ -166,8 +182,10 @@ body {
   border-radius: 16px;
   box-shadow: 2x 3px 5px #222;
   .thumbnail-container {
-    text-align: center; 
-    margin-top: 50px;  
+    display: flex;  
+    justify-content: center;  
+    gap: 10px;  
+    margin-top: 50px; 
   }
 }
 .thumbnail {
@@ -176,8 +194,10 @@ body {
   border-radius: 16px;
   box-shadow: 2x 3px 5px #222;
   .thumbnail-container {
-    text-align: center; 
-    margin-top: 50px;  
+    display: flex;  
+    justify-content: center;  
+    gap: 10px;  
+    margin-top: 50px; 
   }
 }
   #contact > a:link {
