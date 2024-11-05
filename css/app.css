@@ -41,7 +41,7 @@ section {
   border: 1.5px solid #000000;
 }
 body {
-  background: #0f6c36;
+  background: #41b471;
   padding: 25px 50px;
   font-size: 1.2em;
   font-weight: 500;
@@ -56,7 +56,7 @@ body {
     font-family: "Crimson Text", serif;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     text-decoration: underline;
   }
   .thumbnail {
@@ -73,7 +73,7 @@ body {
   }
 */
 #careerGoals {
-  background: #2d8137;
+  background: #07bb1c;
   color: #000000;
   font-size: 1.2em;
   padding-left: 100px;
@@ -93,6 +93,20 @@ body {
       display: flex;
       gap: 20px;
     }
+.content {
+  overflow: hidden; 
+  padding: 20px;    
+}
+.text {
+  float: left;       
+  width: 60%;        
+  margin-right: 50px;
+}
+.image {
+  float: right;      
+  width: 200px;      
+  height: auto;     
+}
   }
   
 }
@@ -113,7 +127,7 @@ body {
       margin-top: 50px; 
       .image-container {
         display: flex;
-        gap: 50px;
+        gap: 300px;
       }
     }
   }
@@ -129,7 +143,7 @@ body {
       margin-top: 50px; 
       .image-container {
         display: flex; 
-        gap: 50px;
+        gap: 300px;
       }
     }
   }
@@ -145,7 +159,7 @@ body {
       margin-top: 50px;
       .image-container {
         display: flex;
-        gap: 50px;
+        gap: 300px;
       }
     }
   }
@@ -166,7 +180,7 @@ body {
         margin-top: 50px; 
         .image-container {
           display: flex;
-          gap: 50px;
+          gap: 300px;
         }
       }
     }
@@ -182,7 +196,7 @@ body {
         margin-top: 50px; 
         .image-container {
           display: flex;
-          gap: 50px;
+          gap: 300px;
         }
       }
     }
@@ -198,7 +212,7 @@ body {
         margin-top: 50px; 
         .image-container {
           display: flex;
-          gap: 50px;
+          gap: 300px;
         }
       }
     }
@@ -214,7 +228,7 @@ body {
         margin-top: 50px;
         .image-container {
           display: flex;
-          gap: 50px;
+          gap: 300px;
         }
       }
     }
@@ -238,7 +252,7 @@ body {
     margin-top: 50px; 
     .image-container {
       display: flex;
-      gap: 50px;
+      gap: 300px;
     }
   }
 }
@@ -254,7 +268,7 @@ body {
     margin-top: 50px; 
     .image-container {
       display: flex;
-      gap: 50px;
+      gap: 300px;
     }
   }
 }
@@ -270,7 +284,7 @@ body {
     margin-top: 50px; 
     .image-container {
       display: flex;
-      gap: 50px;
+      gap: 300px;
     }
   }
 }
